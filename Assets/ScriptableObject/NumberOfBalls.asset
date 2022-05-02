@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39de85368ebb419b944201cd85efe0b, type: 3}
   m_Name: NumberOfBalls
   m_EditorClassIdentifier: 
-  _value: 0
-  _initialValue: 0
-  _oldValue: 0
+  _value: 100
+  _initialValue: 100
+  _oldValue: 100
   onValueChanged: {fileID: 0}
