@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b6ed7fb2bec64c2bbd54f53dd15431f, type: 3}
-  m_Name: FadeDuration
+  m_Name: RotationSpeed
   m_EditorClassIdentifier: 
-  _value: 0
-  _initialValue: 1
-  _oldValue: 0
+  _value: 10000
+  _initialValue: 11000
+  _oldValue: 10000
   onValueChanged: {fileID: 0}

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ball
   - WinnerBall
+  - Cub
   layers:
   - Default
   - TransparentFX

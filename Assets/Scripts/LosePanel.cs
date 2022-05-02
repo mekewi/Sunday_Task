@@ -10,7 +10,9 @@ public class LosePanel : MonoBehaviour
     public GameObject button;
     public void OnLevelLose()
     {
-        titleImage.transform.DOScale(1.5f, 0.4f).SetLoops(4,LoopType.Yoyo);
-        button.transform.DOScale(1.2f, 0.3f).SetLoops(2,LoopType.Yoyo);
+        titleImage.transform.localScale = Vector3.one * 0.6f;
+        button.transform.localScale = Vector3.one * 0.6f;
+        titleImage.transform.DOScale(1f, 0.4f).SetLoops(4,LoopType.Yoyo);
+        button.transform.DOScale(1f, 0.3f).SetLoops(2,LoopType.Yoyo);
     }
 }

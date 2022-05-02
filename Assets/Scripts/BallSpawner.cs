@@ -7,7 +7,7 @@ using Random = UnityEngine.Random;
 
 public class BallSpawner : MonoBehaviour
 {
-    public IntVariable numberOfBalls;
+    public LevelSettings levelSettings;
     public GameObject ballPrefab;
     public float radius;
     private void Awake()
@@ -17,7 +17,7 @@ public class BallSpawner : MonoBehaviour
 
     public IEnumerator InstantiateNewBalls()
     {
-        for (int i = 0; i < numberOfBalls.Value; i++)
+        for (int i = 0; i < levelSettings.NumberOfBallsInGame; i++)
         {
             var newBall = Instantiate(ballPrefab);
             newBall.transform.parent = transform;

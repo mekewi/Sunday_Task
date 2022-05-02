@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b6ed7fb2bec64c2bbd54f53dd15431f, type: 3}
-  m_Name: RotationSpeed
+  m_Script: {fileID: 11500000, guid: 857a44f0eeb3444b89e32506fcdc32fc, type: 3}
+  m_Name: Level_2_Settings
   m_EditorClassIdentifier: 
-  _value: 10000
-  _initialValue: 10000
-  _oldValue: 10000
-  onValueChanged: {fileID: 0}
+  NumberOfBallsInGame: 50
+  NumberOfBallsToWin: 40
